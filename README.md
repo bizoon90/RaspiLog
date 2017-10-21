@@ -1,7 +1,7 @@
 # RaspiLog
 Python script that creates a cvs containing a set of parameters of the Raspberry Pi 3: CPU Temperature, CPU Usage, Public IP. 
 
-#References
+# References
 
 (1) 
 
