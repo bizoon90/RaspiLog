@@ -12,9 +12,9 @@ def main():
      with open("cpu_temp.csv", "a") as log:
           while True:
               CPU_temp = getCPUtemperature()
-              CPU_usage = getCPUuse()
+              #CPU_usage = getCPUuse()
               log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_temp),"\n\n"))
-	      log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_usage),"\n\n"))
+	      #log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_usage),"\n\n"))
 	      #pausing for ten seconds	
               sleep(1)
  if __name__ == '__main__':
