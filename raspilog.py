@@ -14,9 +14,9 @@ def main():
               CPU_temp = getCPUtemperature()
               CPU_usage = getCPUuse()
               log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_temp),"\n\n"))
-			  log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_usage),"\n\n"))
+	      log.write("{0},{1}\n".format(strftime("%Y-%m-%d %H:%M:%S"),str(CPU_usage),"\n\n"))
+	      #pausing for ten seconds	
               sleep(1)
-    
-if __name__ == '__main__':
+ if __name__ == '__main__':
 main()
 
